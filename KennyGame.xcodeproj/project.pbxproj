@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EE44B082A058C3700615399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE44B072A058C3700615399 /* AppDelegate.swift */; };
+		8EE44B0A2A058C3700615399 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE44B092A058C3700615399 /* SceneDelegate.swift */; };
+		8EE44B0C2A058C3700615399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE44B0B2A058C3700615399 /* ViewController.swift */; };
+		8EE44B0F2A058C3700615399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE44B0D2A058C3700615399 /* Main.storyboard */; };
+		8EE44B112A058C3900615399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE44B102A058C3900615399 /* Assets.xcassets */; };
+		8EE44B142A058C3900615399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE44B122A058C3900615399 /* LaunchScreen.storyboard */; };
+		8EE44B1F2A058C3900615399 /* KennyGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE44B1E2A058C3900615399 /* KennyGameTests.swift */; };
+		8EE44B292A058C3900615399 /* KennyGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE44B282A058C3900615399 /* KennyGameUITests.swift */; };
+		8EE44B2B2A058C3900615399 /* KennyGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE44B2A2A058C3900615399 /* KennyGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EE44B1B2A058C3900615399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE44AFC2A058C3700615399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE44B032A058C3700615399;
+			remoteInfo = KennyGame;
+		};
+		8EE44B252A058C3900615399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE44AFC2A058C3700615399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE44B032A058C3700615399;
+			remoteInfo = KennyGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EE44B042A058C3700615399 /* KennyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KennyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE44B072A058C3700615399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EE44B092A058C3700615399 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8EE44B0B2A058C3700615399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		8EE44B0E2A058C3700615399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EE44B102A058C3900615399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EE44B132A058C3900615399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EE44B152A058C3900615399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE44B1A2A058C3900615399 /* KennyGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KennyGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE44B1E2A058C3900615399 /* KennyGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KennyGameTests.swift; sourceTree = "<group>"; };
+		8EE44B242A058C3900615399 /* KennyGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KennyGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE44B282A058C3900615399 /* KennyGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KennyGameUITests.swift; sourceTree = "<group>"; };
+		8EE44B2A2A058C3900615399 /* KennyGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KennyGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EE44B012A058C3700615399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE44B172A058C3900615399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE44B212A058C3900615399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EE44AFB2A058C3700615399 = {
+			isa = PBXGroup;
+			children = (
+				8EE44B062A058C3700615399 /* KennyGame */,
+				8EE44B1D2A058C3900615399 /* KennyGameTests */,
+				8EE44B272A058C3900615399 /* KennyGameUITests */,
+				8EE44B052A058C3700615399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EE44B052A058C3700615399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EE44B042A058C3700615399 /* KennyGame.app */,
+				8EE44B1A2A058C3900615399 /* KennyGameTests.xctest */,
+				8EE44B242A058C3900615399 /* KennyGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EE44B062A058C3700615399 /* KennyGame */ = {
+			isa = PBXGroup;
+			children = (
+				8EE44B072A058C3700615399 /* AppDelegate.swift */,
+				8EE44B092A058C3700615399 /* SceneDelegate.swift */,
+				8EE44B0B2A058C3700615399 /* ViewController.swift */,
+				8EE44B0D2A058C3700615399 /* Main.storyboard */,
+				8EE44B102A058C3900615399 /* Assets.xcassets */,
+				8EE44B122A058C3900615399 /* LaunchScreen.storyboard */,
+				8EE44B152A058C3900615399 /* Info.plist */,
+			);
+			path = KennyGame;
+			sourceTree = "<group>";
+		};
+		8EE44B1D2A058C3900615399 /* KennyGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EE44B1E2A058C3900615399 /* KennyGameTests.swift */,
+			);
+			path = KennyGameTests;
+			sourceTree = "<group>";
+		};
+		8EE44B272A058C3900615399 /* KennyGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EE44B282A058C3900615399 /* KennyGameUITests.swift */,
+				8EE44B2A2A058C3900615399 /* KennyGameUITestsLaunchTests.swift */,
+			);
+			path = KennyGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EE44B032A058C3700615399 /* KennyGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE44B2E2A058C3900615399 /* Build configuration list for PBXNativeTarget "KennyGame" */;
+			buildPhases = (
+				8EE44B002A058C3700615399 /* Sources */,
+				8EE44B012A058C3700615399 /* Frameworks */,
+				8EE44B022A058C3700615399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KennyGame;
+			productName = KennyGame;
+			productReference = 8EE44B042A058C3700615399 /* KennyGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EE44B192A058C3900615399 /* KennyGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE44B312A058C3900615399 /* Build configuration list for PBXNativeTarget "KennyGameTests" */;
+			buildPhases = (
+				8EE44B162A058C3900615399 /* Sources */,
+				8EE44B172A058C3900615399 /* Frameworks */,
+				8EE44B182A058C3900615399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EE44B1C2A058C3900615399 /* PBXTargetDependency */,
+			);
+			name = KennyGameTests;
+			productName = KennyGameTests;
+			productReference = 8EE44B1A2A058C3900615399 /* KennyGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EE44B232A058C3900615399 /* KennyGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE44B342A058C3900615399 /* Build configuration list for PBXNativeTarget "KennyGameUITests" */;
+			buildPhases = (
+				8EE44B202A058C3900615399 /* Sources */,
+				8EE44B212A058C3900615399 /* Frameworks */,
+				8EE44B222A058C3900615399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EE44B262A058C3900615399 /* PBXTargetDependency */,
+			);
+			name = KennyGameUITests;
+			productName = KennyGameUITests;
+			productReference = 8EE44B242A058C3900615399 /* KennyGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EE44AFC2A058C3700615399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8EE44B032A058C3700615399 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					8EE44B192A058C3900615399 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8EE44B032A058C3700615399;
+					};
+					8EE44B232A058C3900615399 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8EE44B032A058C3700615399;
+					};
+				};
+			};
+			buildConfigurationList = 8EE44AFF2A058C3700615399 /* Build configuration list for PBXProject "KennyGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EE44AFB2A058C3700615399;
+			productRefGroup = 8EE44B052A058C3700615399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EE44B032A058C3700615399 /* KennyGame */,
+				8EE44B192A058C3900615399 /* KennyGameTests */,
+				8EE44B232A058C3900615399 /* KennyGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EE44B022A058C3700615399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE44B142A058C3900615399 /* LaunchScreen.storyboard in Resources */,
+				8EE44B112A058C3900615399 /* Assets.xcassets in Resources */,
+				8EE44B0F2A058C3700615399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE44B182A058C3900615399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE44B222A058C3900615399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EE44B002A058C3700615399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE44B0C2A058C3700615399 /* ViewController.swift in Sources */,
+				8EE44B082A058C3700615399 /* AppDelegate.swift in Sources */,
+				8EE44B0A2A058C3700615399 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE44B162A058C3900615399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE44B1F2A058C3900615399 /* KennyGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE44B202A058C3900615399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE44B2B2A058C3900615399 /* KennyGameUITestsLaunchTests.swift in Sources */,
+				8EE44B292A058C3900615399 /* KennyGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EE44B1C2A058C3900615399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EE44B032A058C3700615399 /* KennyGame */;
+			targetProxy = 8EE44B1B2A058C3900615399 /* PBXContainerItemProxy */;
+		};
+		8EE44B262A058C3900615399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EE44B032A058C3700615399 /* KennyGame */;
+			targetProxy = 8EE44B252A058C3900615399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EE44B0D2A058C3700615399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EE44B0E2A058C3700615399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EE44B122A058C3900615399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EE44B132A058C3900615399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EE44B2C2A058C3900615399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EE44B2D2A058C3900615399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EE44B2F2A058C3900615399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26MJZUBYQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KennyGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olmezses.KennyGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EE44B302A058C3900615399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26MJZUBYQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KennyGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olmezses.KennyGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EE44B322A058C3900615399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26MJZUBYQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olmezses.KennyGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KennyGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KennyGame";
+			};
+			name = Debug;
+		};
+		8EE44B332A058C3900615399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26MJZUBYQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olmezses.KennyGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KennyGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KennyGame";
+			};
+			name = Release;
+		};
+		8EE44B352A058C3900615399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26MJZUBYQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olmezses.KennyGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KennyGame;
+			};
+			name = Debug;
+		};
+		8EE44B362A058C3900615399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26MJZUBYQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olmezses.KennyGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KennyGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EE44AFF2A058C3700615399 /* Build configuration list for PBXProject "KennyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE44B2C2A058C3900615399 /* Debug */,
+				8EE44B2D2A058C3900615399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE44B2E2A058C3900615399 /* Build configuration list for PBXNativeTarget "KennyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE44B2F2A058C3900615399 /* Debug */,
+				8EE44B302A058C3900615399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE44B312A058C3900615399 /* Build configuration list for PBXNativeTarget "KennyGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE44B322A058C3900615399 /* Debug */,
+				8EE44B332A058C3900615399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE44B342A058C3900615399 /* Build configuration list for PBXNativeTarget "KennyGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE44B352A058C3900615399 /* Debug */,
+				8EE44B362A058C3900615399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EE44AFC2A058C3700615399 /* Project object */;
+}
